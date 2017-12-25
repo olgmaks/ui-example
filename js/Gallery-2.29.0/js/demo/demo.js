@@ -100,8 +100,8 @@ $(function () {
     $.each(seaData, function (index, photo) {
         // baseUrl = 'https://farm' + photo.farm + '.static.flickr.com/' +
         // photo.server + '/' + photo.id + '_' + photo.secret
-        $('<a/>')
-            .append($('<img>').prop('src', photo + '_tn.jpg'))
+        $('<a class="thumbnail"/>')
+            .append($('<img>').prop('src', photo + '.jpg'))
             .prop('href', photo + '.jpg')
             .prop('title', '')
             .attr('data-gallery', '')
