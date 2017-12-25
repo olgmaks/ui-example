@@ -13,7 +13,7 @@
 
 $(function () {
   'use strict'
-
+ 
   // Load demo images from flickr:
   $.ajax({
     url: 'https://api.flickr.com/services/rest/',
@@ -26,7 +26,7 @@ $(function () {
     jsonp: 'jsoncallback'
   }).done(function (result) {
     var carouselLinks = []
-    var linksContainer = $('#links')
+    var linksContainer = $('#links1')
     var baseUrl
     // Add the demo images as links with thumbnails to the page:
     $.each(result.photos.photo, function (index, photo) {
@@ -37,7 +37,7 @@ $(function () {
         .prop('href', baseUrl + '_b.jpg')
         .prop('title', photo.title)
         .attr('data-gallery', '')
-        .appendTo(linksContainer)
+        // .appendTo(linksContainer)
       carouselLinks.push({
         href: baseUrl + '_c.jpg',
         title: photo.title
