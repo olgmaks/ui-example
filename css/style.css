@@ -53,11 +53,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', Monaco;
+    font-weight: 400;
     margin-top: 0px;
     margin-bottom: 20px;
-    color: #10161A;
+    color: #2b542c;
+}
+
+p {
+    font-family: 'Montserrat', Monaco;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #2b542c;
 }
 
 h1 {
@@ -144,7 +152,7 @@ ul, ol {
 }
 
 .bg-dark {
-    background-color: #1C1D21;
+    background-color: #2b542c;
 }
 
 
@@ -1750,4 +1758,9 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+
+
+.gallery-img-centered {
+    text-align: center;
 }
