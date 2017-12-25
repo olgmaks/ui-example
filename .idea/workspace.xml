@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ddb8af-827c-40a0-a84a-1432aca50bf1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/my-sea.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/data/bw1_tn.jpg" afterPath="$PROJECT_DIR$/data/bw1_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/bw2_tn.jpg" afterPath="$PROJECT_DIR$/data/bw2_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/bw3_tn.jpg" afterPath="$PROJECT_DIR$/data/bw3_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i10_tn.jpg" afterPath="$PROJECT_DIR$/data/i10_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i11_tn.jpg" afterPath="$PROJECT_DIR$/data/i11_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i1_tn.jpg" afterPath="$PROJECT_DIR$/data/i1_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i2_tn.jpg" afterPath="$PROJECT_DIR$/data/i2_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i3_tn.jpg" afterPath="$PROJECT_DIR$/data/i3_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i4_tn.jpg" afterPath="$PROJECT_DIR$/data/i4_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i5_tn.jpg" afterPath="$PROJECT_DIR$/data/i5_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i6_tn.jpg" afterPath="$PROJECT_DIR$/data/i6_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i7_tn.jpg" afterPath="$PROJECT_DIR$/data/i7_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i8_tn.jpg" afterPath="$PROJECT_DIR$/data/i8_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/i9_tn.jpg" afterPath="$PROJECT_DIR$/data/i9_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/p1_tn.jpg" afterPath="$PROJECT_DIR$/data/p1_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/p2_tn.jpg" afterPath="$PROJECT_DIR$/data/p2_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/p3_tn.jpg" afterPath="$PROJECT_DIR$/data/p3_tn.jpg" />
-      <change beforePath="$PROJECT_DIR$/data/s1_tn.jpg" afterPath="$PROJECT_DIR$/data/s1_tn.jpg" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/Gallery-2.29.0/js/demo/demo.js" afterPath="$PROJECT_DIR$/js/Gallery-2.29.0/js/demo/demo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="167" column="48" lean-forward="false" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="48" />
+            <state relative-caret-position="649">
+              <caret line="396" column="31" lean-forward="false" selection-start-line="396" selection-start-column="31" selection-end-line="396" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -73,7 +51,6 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -208,7 +185,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22952000" />
+    <option name="totallyTimeSpent" value="23261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="6" width="1857" height="962" extended-state="6" />
@@ -357,7 +334,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -402,7 +378,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -468,7 +443,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -635,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="167" column="48" lean-forward="false" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="48" />
+        <state relative-caret-position="649">
+          <caret line="396" column="31" lean-forward="false" selection-start-line="396" selection-start-column="31" selection-end-line="396" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -645,7 +619,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
