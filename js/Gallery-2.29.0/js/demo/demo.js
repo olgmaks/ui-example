@@ -14,10 +14,16 @@
 $(function () {
     'use strict'
 
-    var lightBoxLinks = [];
-    var linksContainer = $('#links');
+    // Portrait data
+    var portraitData = [
+        "data/p1",
+        "data/p2",
+        "data/p3"
+    ];
+    var portraitLinksContainer = $('#portrait-links');
 
-    var lightBoxData = [
+    // Film
+    var filmData = [
         "data/i1",
         "data/i2",
         "data/i3",
@@ -51,15 +57,25 @@ $(function () {
         "data/i7",
         "data/i8"
     ];
+    var filmLinksContainer = $('#film-links');
 
-    var carouselData = [
-        "data/i9",
-        "data/i10",
-        "data/i11"
+    // Sea
+    var seaData = [
+        "data/s1"
     ];
+    var seaLinksContainer = $('#sea-links');
 
-    // Add the demo images as links with thumbnails to the page:
-    $.each(lightBoxData, function (index, photo) {
+    // Black and white
+    // Sea
+    var bwData = [
+        "data/bw1",
+        "data/bw2",
+        "data/bw3"
+    ];
+    var bwLinksContainer = $('#bw-links');
+
+
+    $.each(portraitData, function (index, photo) {
         // baseUrl = 'https://farm' + photo.farm + '.static.flickr.com/' +
         // photo.server + '/' + photo.id + '_' + photo.secret
         $('<a/>')
@@ -67,27 +83,39 @@ $(function () {
             .prop('href', photo + '.jpg')
             .prop('title', '')
             .attr('data-gallery', '')
-            .appendTo(linksContainer);
+            .appendTo(portraitLinksContainer);
     });
 
-
-    var carouselLinks = [];
-    // Add the demo images as links with thumbnails to the page:
-    $.each(carouselData, function (index, photo) {
+    $.each(filmData, function (index, photo) {
         // baseUrl = 'https://farm' + photo.farm + '.static.flickr.com/' +
         // photo.server + '/' + photo.id + '_' + photo.secret
-
-        carouselLinks.push({
-            href: photo + '.jpg',
-            title: 'Зображення'
-        });
-        // })
-        // Initialize the Gallery as image carousel:
-        blueimp.Gallery(carouselLinks, {
-            container: '#blueimp-image-carousel',
-            carousel: true,
-            controlsClass: 'blueimp-gallery-controls'
-        })
+        $('<a/>')
+            .append($('<img>').prop('src', photo + '_tn.jpg'))
+            .prop('href', photo + '.jpg')
+            .prop('title', '')
+            .attr('data-gallery', '')
+            .appendTo(filmLinksContainer);
     });
 
+    $.each(seaData, function (index, photo) {
+        // baseUrl = 'https://farm' + photo.farm + '.static.flickr.com/' +
+        // photo.server + '/' + photo.id + '_' + photo.secret
+        $('<a/>')
+            .append($('<img>').prop('src', photo + '_tn.jpg'))
+            .prop('href', photo + '.jpg')
+            .prop('title', '')
+            .attr('data-gallery', '')
+            .appendTo(seaLinksContainer);
+    });
+
+    $.each(bwData, function (index, photo) {
+        // baseUrl = 'https://farm' + photo.farm + '.static.flickr.com/' +
+        // photo.server + '/' + photo.id + '_' + photo.secret
+        $('<a/>')
+            .append($('<img>').prop('src', photo + '_tn.jpg'))
+            .prop('href', photo + '.jpg')
+            .prop('title', '')
+            .attr('data-gallery', '')
+            .appendTo(bwLinksContainer);
+    });
 });
